@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 
 # ===== INFO =====
-TOKEN = "MTE5NjAyODUxMjAxMjg2NTU4Ng.GBJMlP.vO0DyHhkLbi_pS-e52r1hq1hXp9TeaJYg_UHDc"   # nhớ đổi token
+TOKEN = os.getenv("raven")
 GUILD_ID = 1449034375634354311
 TARGET_USER_ID = 1125449260037574760
 LOG_CHANNEL_ID = 1455171567737634867
